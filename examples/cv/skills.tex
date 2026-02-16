@@ -1,38 +1,30 @@
 %-------------------------------------------------------------------------------
 %	SECTION TITLE
 %-------------------------------------------------------------------------------
-\cvsection{Skills}
 
+\cvsection{Skills \& Certificates}
 
 %-------------------------------------------------------------------------------
 %	CONTENT
 %-------------------------------------------------------------------------------
-\begin{cvskills}
-
-%---------------------------------------------------------
-  \cvskill
-    {DevOps} % Category
-    {AWS, Docker, Kubernetes, Rancher, Vagrant, Packer, Terraform, Jenkins, CircleCI} % Skills
-
-%---------------------------------------------------------
-  \cvskill
-    {Back-end} % Category
-    {Koa, Express, Django, REST API} % Skills
-
-%---------------------------------------------------------
-  \cvskill
-    {Front-end} % Category
-    {Hugo, Redux, React, HTML5, LESS, SASS} % Skills
-
-%---------------------------------------------------------
-  \cvskill
-    {Programming} % Category
-    {Node.js, Python, JAVA, OCaml, LaTeX} % Skills
-
-%---------------------------------------------------------
-  \cvskill
-    {Languages} % Category
-    {Korean, English, Japanese} % Skills
-
-%---------------------------------------------------------
-\end{cvskills}
+\vspace{-0.5cm}
+\begin{minipage}[t]{0.48\textwidth}
+    % On "trompe" cvskills pour qu'il croie qu'il a toute la page
+    \begin{cvskills}
+        \cvskill{Infra \& Cloud}{Docker, K8s, Proxmox, Terraform}
+        \cvskill{CI/CD}{Ansible, Python, Bash, GitHub Actions}
+        \cvskill{SOC}{XSOAR, Sekoia, Tehtris, HarfangLab}
+        \cvskill{Langues}{French: Native, English Fluent, Spanish: B1}
+        \cvskill{Softskills}{Proactive, Analytical, Autonomous}
+    \end{cvskills}
+\end{minipage}% <--- Le % est important pour ne pas ajouter d'espace parasite
+\hfill % Espace élastique entre les deux
+% Boîte droite (Honors) - 48% de la largeur
+\begin{minipage}[t]{0.48\textwidth}
+    \begin{cvhonors}
+      \cvhonor{CKA}{Linux Foundation}{}{2025}
+      \cvhonor{Blueteam}{SecurityBlue}{}{2024}
+      \cvhonor{Cortex XDR Support}{Palo Alto}{}{2024}
+      \cvhonor{CyberForce Defenders}{Palo Alto}{}{2024}
+    \end{cvhonors}
+\end{minipage}

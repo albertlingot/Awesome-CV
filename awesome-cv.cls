@@ -76,7 +76,7 @@
 % Needed to manage math fonts
 \RequirePackage{unicode-math}
 % Needed to use icons from font-awesome
-\RequirePackage{fontawesome6}
+\RequirePackage{fontawesome5}
 \RequirePackage{accsupp}
 \defaultfontfeatures{
   Renderer=HarfBuzz,
@@ -756,6 +756,7 @@
   \end{tabular*}%
 }
 
+
 % Define an environment for cvsubentry
 \newenvironment{cvsubentries}{%
   \begin{center}
@@ -779,6 +780,7 @@
       {\multicolumn{2}{L{17.0cm}}{\subdescriptionstyle{#4}} \\}
   \end{tabular*}
 }
+
 
 % Define an environment for cvhonor
 \newenvironment{cvhonors}{%
